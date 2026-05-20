@@ -1,0 +1,6 @@
+requests
+dnspython
+beautifulsoup4
+cloudscraper
+pynput
+pyjwt
