@@ -36,6 +36,7 @@ cd HOV4X
 python hovax.py
 
 ### LINUX
+``` bash
 Install dependencies
 sudo apt update
 sudo apt install python3 python3-pip git -y
@@ -48,7 +49,7 @@ pip3 install requests dnspython beautifulsoup4 cloudscraper pynput pyjwt
 
 Run
 python3 hovax.py
-
+```
 Menu List (45 Modules)
 
 Menu Function
