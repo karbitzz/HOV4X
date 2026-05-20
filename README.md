@@ -54,8 +54,8 @@ python3 hovax.py
 Menu List (45 Modules)
 
 Menu Function
--1 Phone OSINT
--2 IP Tracker
+1 Phone OSINT
+2 IP Tracker
 3 Domain OSINT
 4 JS Secret Harvester
 5 SSRF Probe Chain
