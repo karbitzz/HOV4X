@@ -34,6 +34,7 @@ pkg update && pkg upgrade -y
 pkg install python python-pip -y
 
 # Install semua packages yang dibutuhkan HOV4X
+```
 pip install requests
 pip install dnspython
 pip install beautifulsoup4
@@ -58,6 +59,7 @@ pip install virustotal3
 pip install openai
 
 # Install tools eksternal (optional untuk beberapa menu)
+```
 pkg install aircrack-ng -y
 pkg install nmap -y
 pkg install tor -y
@@ -73,6 +75,7 @@ pip install -r requirements.txt
 python hovax.py
 
 ### LINUX
+```
 Install dependencies
 sudo apt update
 sudo apt install python3 python3-pip git -y
