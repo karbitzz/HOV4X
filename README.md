@@ -27,55 +27,15 @@ HOV4X is a comprehensive security testing framework with 45 modules for penetrat
 ## Installation
 
 ### Termux
-# Update dulu
-pkg update && pkg upgrade -y
-
-# Install Python dan pip
-pkg install python python-pip -y
-
-# Install semua packages yang dibutuhkan HOV4X
-```
-pip install requests
-pip install dnspython
-pip install beautifulsoup4
-pip install cloudscraper
-pip install pynput
-pip install pyjwt
-pip install paramiko
-pip install cryptography
-pip install pycryptodome
-pip install mysql-connector-python
-pip install pymongo
-pip install redis
-pip install psycopg2-binary
-pip install bs4
-pip install lxml
-pip install selenium
-pip install websocket-client
-pip install whois
-pip install shodan
-pip install censys
-pip install virustotal3
-pip install openai
-
-# Install tools eksternal (optional untuk beberapa menu)
-```
-pkg install aircrack-ng -y
-pkg install nmap -y
-pkg install tor -y
-pkg install privoxy -y
-pkg install netcat-openbsd -y
-pkg install openssl-tool -y
-pkg install wget -y
-pkg install curl -y
+```bash
+pkg update && pkg upgrade
 pkg install python git
+pip install requests dnspython beautifulsoup4 cloudscraper pynput pyjwt
 git clone https://github.com/karbitzz/HOV4X
 cd HOV4X
-pip install -r requirements.txt
 python hovax.py
 
 ### LINUX
-```
 Install dependencies
 sudo apt update
 sudo apt install python3 python3-pip git -y
