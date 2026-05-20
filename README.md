@@ -34,6 +34,7 @@ pip install requests dnspython beautifulsoup4 cloudscraper pynput pyjwt
 git clone https://github.com/karbitzz/HOV4X
 cd HOV4X
 python hovax.py
+```
 
 ### LINUX
 ``` bash
